@@ -24,10 +24,10 @@ body{
         border-radius: 50px;
         color: #fff;
         cursor: pointer;
-        flex: 0.5;
+        width: 90px;
         margin: 10px;
         position: relative;
-        -webkit-transition: all 700ms ease-in;
+       
 }
 .panel h3{
         font-size: 24px;
@@ -37,20 +37,10 @@ body{
         margin: 0;
         opacity: 0;
 }
+/**/
 .panel.active{
-        flex: 5;
+        flex: 4;
 }
 .panel.active h3{
-        opacity: 1;
-        transition: opacity 0.3s ease-in 0.4;
+        opacity: 1;   
 }
-@media (max-width: 480px) {
-        .container {
-          width: 100vw;
-        }
-      
-        .panel:nth-of-type(4),
-        .panel:nth-of-type(5) {
-          display: none;
-        }
-      }
